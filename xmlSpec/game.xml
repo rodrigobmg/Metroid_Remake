@@ -1,0 +1,383 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>William Sease's Metroid Remake</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>1200</maxFrames>
+<username>wsease</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+  <loc x="30" y="30"/>
+</view>
+
+<world>
+  <width>2000</width>
+  <height>1091</height>
+</world>
+
+<back>
+  <file>assets/background/fullback.png</file>
+  <factor>6</factor>
+  <transparency>true</transparency>
+</back>
+
+<back2>
+  <file>assets/background/hills.xcf</file>
+  <factor>5</factor>
+  <transparency>true</transparency>
+</back2>
+
+<back3>
+  <file>assets/tileset/ground1big.xcf</file>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</back3>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<Samus>
+  <file>assets/wow/3samusidle.xcf</file>
+  <startLoc x="150" y="200"/>
+  <frames>20</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>400</speedY>
+  <chunk>
+    <size>9</size>
+    <distance>80</distance>
+  </chunk>
+  <beam>Beam</beam>
+  <transparency>true</transparency>
+</Samus>
+
+<SamusIdle>
+  <file>assets/wow/3samusidle.xcf</file>
+  <startLoc x="150" y="369"/>
+  <frames>1</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</SamusIdle>
+
+<SamusIdleLeft>
+  <file>assets/wow/3samusidleleft.xcf</file>
+  <startLoc x="150" y="369"/>
+  <frames>1</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</SamusIdleLeft>
+
+<SamusIdleRight>
+  <file>assets/wow/3samusidleright.xcf</file>
+  <startLoc x="150" y="369"/>
+  <frames>1</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</SamusIdleRight>
+
+<SamusRunningLeft>
+  <file>assets/wow/3samusrunningleft.png</file>
+  <startLoc x="150" y="369"/>
+  <frames>10</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</SamusRunningLeft>
+
+<SamusRunningRight>
+  <file>assets/wow/3samusrunningright.png</file>
+  <startLoc x="150" y="369"/>
+  <frames>10</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</SamusRunningRight>
+
+<SamusJumpingLeft>
+  <file>assets/wow/3samusjumpingleft.xcf</file>
+  <startLoc x="150" y="369"/>
+  <frames>8</frames>
+  <frameInterval>80</frameInterval>
+  <speedX>200</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</SamusJumpingLeft>
+
+<SamusJumpingRight>
+  <file>assets/wow/3samusjumpingright.xcf</file>
+  <startLoc x="150" y="369"/>
+  <frames>8</frames>
+  <frameInterval>80</frameInterval>
+  <speedX>200</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</SamusJumpingRight>
+
+<SamusBallLeft>
+  <file>assets/wow/3samusballleft.xcf</file>
+  <startLoc x="150" y="369"/>
+  <frames>8</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</SamusBallLeft>
+
+<SamusBallRight>
+  <file>assets/wow/3samusballright.xcf</file>
+  <startLoc x="150" y="369"/>
+  <frames>8</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</SamusBallRight>
+
+<SamusBallIdle>
+  <file>assets/wow/3samusballidle.xcf</file>
+  <startLoc x="150" y="369"/>
+  <frames>1</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</SamusBallIdle>
+
+<SamusDeathRight>
+  <file>assets/wow/3samusdeathright.png</file>
+  <startLoc x="150" y="369"/>
+  <frames>8</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>400</speedY>
+  <transparency>true</transparency>
+</SamusDeathRight>
+
+<Hud>
+  <startLoc x="675" y="25"/>
+  <width>165</width>
+  <height>275</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <backColor>
+    <r>150</r>
+    <g>200</g>
+    <b>255</b>
+    <a>127</a>
+  </backColor>
+  <barColor>
+    <r>255</r>
+    <g>0</g>
+    <b>0</b>
+    <a>0</a>
+  </barColor>
+</Hud>
+
+<HealthBar>
+  <startLoc x="30" y="30"/>
+  <!-- number of times the bar is decremented -->
+  <increment>50</increment>
+  <interval>100</interval>
+  <width>300</width>
+  <height>20</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <backColor>
+    <r>150</r>
+    <g>200</g>
+    <b>255</b>
+    <a>127</a>
+  </backColor>
+  <barColor>
+    <r>150</r>
+    <g>200</g>
+    <b>255</b>
+    <a>255</a>
+  </barColor>
+</HealthBar>
+
+<Beam>
+  <file>assets/wow/beamfinalb.xcf</file>
+  <frames>2</frames>
+  <frameInterval>40</frameInterval>
+  <interval>300</interval>
+  <distance>600</distance>
+  <startLoc x="100" y="100"/>
+  <speedX>400</speedX>
+  <speedY>0</speedY>
+  <strategy>perpixel</strategy>
+  <transparency>true</transparency>
+</Beam>
+
+<FlyingGuy>
+  <file>assets/flyingguy.xcf</file>
+  <startLoc x="800" y="860"/>
+  <frames>4</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-275</speedX>
+  <speedY>275</speedY>
+  <chunk>
+    <size>9</size>
+    <distance>80</distance>
+  </chunk>
+  <transparency>true</transparency>
+</FlyingGuy>
+
+<Guy>
+  <file>assets/guy.png</file>
+  <startLoc x="800" y="860"/>
+  <speedX>400</speedX>
+  <speedY>400</speedY>
+  <chunk>
+    <size>9</size>
+    <distance>80</distance>
+  </chunk>
+<transparency>true</transparency>
+</Guy>
+
+<MBrain>
+  <file>assets/mbrain3.png</file>
+  <startLoc x="800" y="880"/>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <chunk>
+    <size>6</size>
+    <distance>100</distance>
+  </chunk>
+  <transparency>true</transparency>
+</MBrain>
+
+<BabyMetroid>
+  <file>assets/babymetroid.png</file>
+  <startLoc x="880" y="1008"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <chunk>
+    <size>6</size>
+    <distance>100</distance>
+  </chunk>
+  <transparency>true</transparency>
+</BabyMetroid>
+
+<Ship>
+  <file>assets/ship.png</file>
+  <startLoc x="70" y="50"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <chunk>
+    <size>6</size>
+    <distance>100</distance>
+  </chunk>
+  <transparency>true</transparency>
+</Ship>
+
+<SmallWall>
+  <file>assets/smallwall.png</file>
+  <startLoc x="410" y="660"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</SmallWall>
+
+<MedWall>
+  <file>assets/medwall.png</file>
+  <startLoc x="1660" y="380"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</MedWall>
+
+<Wall>
+  <file>assets/bigwall.png</file>
+  <startLoc x="0" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</Wall>
+
+<Floor>
+  <file>assets/longfloor.png</file>
+  <startLoc x="0" y="1070"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</Floor>
+
+<TopFloor>
+  <file>assets/topfloor.png</file>
+  <startLoc x="0" y="350"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</TopFloor>
+
+<SmallFloor>
+  <file>assets/floor.png</file>
+  <startLoc x="1100" y="950"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</SmallFloor>
+
+<TinyFloor>
+  <file>assets/tinyfloor.png</file>
+  <startLoc x="1129" y="530"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</TinyFloor>
+
+<MidFloor>
+  <file>assets/midfloor.png</file>
+  <startLoc x="410" y="630"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</MidFloor>
+
+<TopCeiling>
+  <file>assets/fullceiling.png</file>
+  <startLoc x="-5" y="380"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</TopCeiling>
+
+<SmallCeiling>
+  <file>assets/ceiling.png</file>
+  <startLoc x="390" y="680"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</SmallCeiling>
+
+<BigCeiling>
+  <file>assets/darkbigceiling.png</file>
+  <startLoc x="0" y="600"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</BigCeiling>
+
+</GameData>
